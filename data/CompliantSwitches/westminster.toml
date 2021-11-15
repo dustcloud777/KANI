@@ -10,6 +10,7 @@ station = true
 
 links = [
  'j:mta:wm',
+ 'venne',
  'j:hits_wm',
  'j:pnyc',
  'j:sw:mta',
