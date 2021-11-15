@@ -2302,7 +2302,8 @@
 		"links": [
 			"j:mta:walton",
 			"j:mta:sept",
-			"westminster"
+			"westminster",
+			"venne"
 		],
 		"name": "j:mta:wm",
 		"switch": true,
@@ -4491,6 +4492,20 @@
 		"x": -4861,
 		"z": -2769
 	},
+	"venne": {
+		"BadLinks": {},
+		"filepath": "./data/CompliantSwitches/venne.toml",
+		"links": [
+			"j:mta:wm",
+			"westminster"
+		],
+		"name": "venne",
+		"station": true,
+		"type": "CompliantSwitches",
+		"x": -5278,
+		"y": 11,
+		"z": 3668
+	},
 	"ventura": {
 		"BadLinks": {},
 		"filepath": "./data/TerminalDestinations/ventura.toml",
@@ -4581,6 +4596,7 @@
 		"filepath": "./data/CompliantSwitches/westminster.toml",
 		"links": [
 			"j:mta:wm",
+			"venne",
 			"j:hits_wm",
 			"j:pnyc",
 			"j:sw:mta",
